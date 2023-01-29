@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Micro Garden</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--상단 검은색 박스-->
+    <div class="upperbox">
+        <span class="logo">Micro Garden</span>
+    </div>
+
+
+    <center>
+        <div class="centerbox">
+            <!--가운데 박스-->
+            <div class="login">로그인</div>
+            <!--로그인 타이틀-->
+            <div class="whethermember">
+                <a href="javascript:tap_view(1)" id="member" class="selected">회원</a>
+                <a href="javascript:tap_view(2)" id="nomember">비회원</a>
+            </div>
+
+
+            <div class="input_id" style>
+                <input type="text" class="text error" id="LoginId" name="LoginId" value placeholder="아이디"
+                    required="true" aria-required="true" style>
+            </div>
+
+            <div class="input_pw">
+                <input type="password" class="text error" id="LoginPwd" name="LoginPwd" value placeholder="비밀번호"
+                    required="true" aria-required="true" style>
+            </div>
+
+
+            <div class="save">
+                <input type="checkbox" class="checkbox" id="saveId" value="y">
+                <label for="saveId" class="on">아이디 저장</label>
+            </div>
+            <button type="submit" class="loginbutton" style="cursor:pointer">
+                <strong>로그인</strong>
+            </button>
+
+            <div class="login_menu">
+                <a href="https://meaningone.tistory.com/75" class="btnJoinMember" target="blank">
+                    회원가입
+                </a>
+                <a href="https://meaningone.tistory.com/75" class="btnFindId" target="blank">
+                    아이디 찾기
+                </a>
+                <a href="https://meaningone.tistory.com/75" class="btnFindPwd" target="blank">
+                    비밀번호 찾기
+                </a>
+            </div>
+            <a class="naverid" href="https://www.naver.com/">
+                <img src="icon/naver.png" class="naver">
+                <br>
+                <span class="navertxt">네이버 아이디로 로그인</span>
+            </a>
+    </center>
+
+    <div class="lowerbox"></div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lush</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header" class="header">
+            <div class="header_title">LUSH</div>
+            <div class="header_list">
+                <ul class="top_gnbmenu">
+                    <li class="menu1">
+                        <!--dropdown-->
+                        <a href="www.lush.co.kr">제품</a>
+                    </li>
+                    <li class="menu2">
+                        <a href="www.lush.co.kr">러쉬 소개</a>
+                    </li>
+                    <li class="menu3">
+                        <a href="www.lush.co.kr">매장 안내</a>
+                    </li>
+                    <li class="menu4">
+                        <a href="www.lush.co.kr">스파</a>
+
+                    </li>
+                    <li class="menu5">
+                        <a href="www.lush.co.kr">이벤트</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="section">
+            <div class="section_title">
+                <h2>로그인</h2>
+            </div>
+
+            <div class="box" id="tabs">
+                <div class="is_member">
+                    <ul>
+                        <li>
+                            <a href="javascript:tab_view(1)" class="selected">회원</a>
+                        </li>
+                        <li>
+                            <a href="javascript:tab_view(2)">비회원</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="loginbox">
+                    <div class="input_info">
+                        <div>
+                            <div class="inp_login">
+                                <span class="icon">
+                                    <img src="icon/user.png">
+                                </span>
+                                <input type="text" class="text" name="loginId" placeholder="아이디" required="true">
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="inp_login">
+                                <span class="icon">
+                                    <img src="icon/protect.png">
+                                </span>
+                                <input type="password" class="text" name="loginPwd" placeholder="비밀번호" required="true">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="save">
+                        <input type="checkbox" class="checkbox" id="saveId" name="saveId">
+                        <label for="saveId" class>아이디 저장</label>
+                    </div>
+                    <button type="submit" class="login">로그인</button>
+
+                    <div class="login_menu">
+                        <a href="https://lush.co.kr/member/join_method.php" id="btnJoinMember">회원가입</a>
+
+                        <a href="https://lush.co.kr/member/find_id.php" id="btnFindId">아이디 찾기</a>
+
+                        <a href="https://lush.co.kr/member/find_id.php" id="btnFindPwd">비밀번호 찾기</a>
+
+                    </div>
+                </div>
+
+                <a class="naver_login" href="https://www.naver.com/">
+                    <i>
+                        <img src="icon/naver.png" class="naver">
+                    </i>
+
+                    네이버 아이디로 로그인
+                </a>
+            </div>
+
+            <footer>
+                <div class="footer">
+                    <div class="footer_left">
+                        <div class="footer_lush">LUSH</div>
+                        <div class="service_center">
+                            고객센터 1644-2357
+                        </div>
+                        <div class="present">
+                            기업선물 070-4713-8543
+                        </div>
+                        <div class="footer_icon">아이콘</div>
+                    </div>
+                    <div class="footer_right">
+                        <div class="footer_list">
+                            <ul>
+                                <li><a href="#" style="color: white">스카우트</a></li>
+                                <li><a href="#" style="color: white">회사소개</a></li>
+                                <li><a href="#" style="color: white">개인정보처리방침</a></li>
+                                <li><a href="#" style="color: white">영상정보관리지침</a></li>
+                                <li><a href="#" style="color: white">이용약관</a></li>
+                                <li><a href="#" style="color: white">고객센터</a></li>
+                            </ul>
+                        </div>
+                        <div class="email_input">
+                            <input type="email" class="text" name="loginId" placeholder="이메일 주소를 입력해 주세요."
+                                required="true">
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </center>
+</body>
+
+</html>

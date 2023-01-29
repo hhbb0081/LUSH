@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Jua&family=Noto+Sans+KR:wght@500&family=Sunflower&display=swap');
+
+.upperbox {
+    vertical-align: bottom;
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    padding-left: 237px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    letter-spacing: 4px;
+}
+
+.logo {
+    display: table-cell;
+    font-size: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    vertical-align: middle;
+    text-align: left;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+
+}
+
+.centerbox {
+    text-align: center;
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    width: 600px;
+    height: 557px;
+    position: relative;
+    top: 220px;
+    left: 0px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login {
+    flex: 0.3;
+    font-weight: 700;
+    font-size: 33px;
+
+    text-align: center;
+    letter-spacing: -0.5px;
+
+}
+
+.whethermember {
+    flex: 0.3;
+    display: flex;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    text-decoration: underline;
+}
+
+#member {
+    flex: 1.0;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#nomember {
+    flex: 1.0;
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+input[type=text] {
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 7px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+
+}
+
+input[type=password] {
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+
+/*
+.input_id{
+    flex:0.3;
+    border : 0.5px solid black;;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color : #8f8f8f;
+    
+}
+*/
+
+.id {
+    margin: auto;
+}
+
+
+/*
+.input_pw{
+    flex:0.3;
+    border : 0.5px solid black;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding-left: 22px;
+    padding-top: 10px;
+    color:#8f8f8f;
+
+}
+*/
+
+
+.save {
+    flex: 0.1;
+    text-align: left;
+    margin-left: 125px;
+    margin-bottom: 15px;
+    color: #8f8f8f;
+    font-size: 16px;
+
+}
+
+button[type=submit] {
+    background-color: black;
+    width: 360px;
+    height: 60px;
+    margin: 0 auto;
+
+
+
+
+}
+
+strong {
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
+
+.login_menu {
+    flex: 0.4;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 185px;
+    margin-right: 185px;
+
+}
+
+.btnJoinMember {
+    color: #8f8f8f;
+    text-decoration-line: none;
+
+}
+
+.btnFindId {
+    color: #8f8f8f;
+    text-decoration-line: none;
+
+}
+
+.btnFindPwd {
+    color: #8f8f8f;
+    text-decoration-line: none;
+
+}
+
+.naverid {
+    border: #c3c3c3 1px solid;
+    flex: 0.3;
+    margin-right: 120px;
+    margin-left: 120px;
+    text-decoration-line: none;
+    color: #8f8f8f;
+    font-size-adjust: inherit;
+}
+
+.naver {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 9px;
+}

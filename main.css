@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Jua&family=Noto+Sans+KR:wght@500&family=Sunflower&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: inline-block;
+    margin: 0px auto 0px auto;
+    height: 100px;
+    width: 100%;
+    background: black;
+    position: fixed;
+    display: flex;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header_title {
+    position: absolute;
+    top: 15px;
+    padding-left: 80px;
+    margin: 0;
+    flex: 3.5;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header_list {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 337px;
+    margin: auto;
+    flex: 6.5;
+}
+
+
+.header_list ul li {
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100%;
+    margin: 0 15px;
+}
+
+.header_list ul li a {
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100%;
+}
+
+.top_gnbmenu {
+    height: 100%;
+    width: 100%;
+}
+
+.top_gnbmenu>li {
+    /*제품, 러쉬소개, 매장안내, 스파, 이벤트*/
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+}
+
+.top_gnbmenu>li>a {
+    display: block;
+    width: 98px;
+    line-height: 70px;
+    font-size: 16px;
+    word-spacing: -1px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: white;
+}
+
+div {
+    display: block;
+}
+
+/*section*/
+.section {
+    position: relative;
+    top: 200px;
+}
+
+.section_title {
+    color: #222;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.section #tabs ul {
+    padding: 55px 0 0;
+    text-align: center;
+}
+
+.section #tabs li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.is_member li a.selected {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.is_member li a {
+    display: inline-block;
+    line-height: 20px;
+    color: #8f8f8f;
+    border-bottom: 1px solid #8f8f8f;
+}
+
+
+/*아이디, 비밀번호 칸*/
+.input_info div .inp_login {
+    position: relative;
+    padding-left: 44px;
+    border: 1px solid #8f8f8f;
+
+}
+
+.loginbox {
+    width: 335px;
+    margin: 55px auto 0;
+    overflow: hidden;
+}
+
+.input_info div {
+    position: relative;
+    margin: 10px 0 0;
+}
+
+.icon {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.icon img {
+    border: none;
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+}
+
+/*아이디, 비밀번호 입력 칸*/
+div .text {
+    width: 245px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 0;
+    text-align: center;
+    border: 0;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.input-info div {
+    position: relative;
+    margin: 10px 0 0;
+}
+
+/*로그인 박스*/
+.login {
+    width: 100%;
+    height: 55px;
+    line-height: 48px;
+    background-color: black;
+    color: white;
+    padding: 0 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div>li {
+
+    display: inline-block;
+}
+
+.loginbox button {
+    margin: 20px 0 0;
+}
+
+
+
+/*아이디 저장*/
+.save {
+    position: relative;
+    margin: 20px 0 0;
+    color: #8f8f8f;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+input.checkbox {
+
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.save label {
+    display: inline-block;
+    height: 20px;
+    padding: 0 0 0 5px;
+    color: #8f8f8f;
+}
+
+.label {
+    cursor: pointer;
+    vertical-align: top;
+}
+
+
+/*회원가입, 아이디 찾기, 비밀번호 찾기*/
+.login_menu {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.login_menu a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #8f8f8f;
+    font-size: 13px;
+}
+
+.login_menu .skinbtn {
+    width: auto;
+    height: auto;
+    color: #8f8f8f;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*네이버 아이디로 로그인*/
+
+.naver_login {
+    display: block;
+    width: 335px;
+    margin: 50px auto 0;
+    border: 1px solid #c3c3c3;
+    height: 55px;
+    color: #8f8f8f;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.naver_login i {
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #c3c3c3;
+    padding: 0 8px 0 8px;
+    margin: 5px 15px 8px 0;
+    line-height: 28px;
+}
+
+.naver_login img {
+    width: 44px;
+    height: 44px;
+}
+
+/*footer*/
+.footer {
+    height: 300px;
+    margin-top: 100px;
+    padding: 0;
+    display: flex;
+    background-color: black;
+}
+
+.footer_left {
+    color: white;
+    flex: 3;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_left .footer_lush {
+    flex: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer_left .service_center {
+    flex: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px 10px;
+    font-size: 15px;
+}
+
+.footer_left .present {
+    flex: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px 10px;
+    font-size: 15px;
+}
+
+.footer_left .footer_icon {
+    flex: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px 10px;
+    font-size: 15px;
+}
+
+.footer .footer_right {
+    color: white;
+    flex: 7;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_right .footer_list {
+    flex: 3;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin: 5px 10px;
+    font-size: 15px;
+}
+
+
+.footer_right .footer_list li {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    margin: 0 50px;
+}
+
+
+.footer_right .email_input {
+    flex: 7;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px 10px;
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+.footer_right .email_input input {
+    width: 400px;
+}
